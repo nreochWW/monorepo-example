@@ -1,0 +1,14 @@
+{
+  "name": "example-two",
+  "description": "This is the second example",
+  "version": "0.0.0",
+  "main": "lib/index.js",
+  "license": "MIT",
+  "scripts": {
+    "tsc": "tsc",
+    "legacy": "webpack --config legacy/webpack.config.js"
+  },
+  "dependencies": {
+    "example-one": "^0.0.1"
+  }
+}
