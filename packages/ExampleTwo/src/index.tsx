@@ -15,7 +15,7 @@ const Wrapper = styled.div`
 const ExampleTwo = (props: ExampleTwoProps) => (
   <Wrapper>
     <h1>
-      Hello World from {props.compiler} and {props.framework}!
+      Hello from {props.compiler} and {props.framework}!
     </h1>
     <ExampleOne compiler="TypeScript" framework="React" />
   </Wrapper>
