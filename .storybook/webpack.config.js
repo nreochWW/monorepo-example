@@ -15,12 +15,9 @@ module.exports = ({ config }) => {
   // This will allow for storybook to work properly. See example below
 
   // We create an alias and load it from src instead of node_modules
-  // config.resolve.alias = {
-  //   "world-typescript-react": path.resolve(
-  //     __dirname,
-  //     "../packages/World/src/index"
-  //   )
-  // };
+  config.resolve.alias = {
+    "example-one": path.resolve(__dirname, "../packages/ExampleOne/src/index")
+  };
 
   config.resolve.plugins.push(
     new TSConfigPathsPlugin({
